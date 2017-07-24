@@ -7,6 +7,8 @@
 //
 
 import Foundation
-class TorchViewController {
+import UIKit
+
+class TorchViewController: UIViewController{
     
 }

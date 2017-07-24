@@ -7,6 +7,8 @@
 //
 
 import Foundation
-class AudioViewController {
+import UIKit
+
+class AudioViewController: UIViewController{
     
 }
