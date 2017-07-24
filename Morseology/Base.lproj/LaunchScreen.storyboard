@@ -10,24 +10,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="u6j-eG-j2L">
-            <objects>
-                <viewController id="9EJ-1x-eT1" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="5Bp-LY-Geb"/>
-                        <viewControllerLayoutGuide type="bottom" id="asP-qx-mxf"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="t4S-IL-RmH">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hMg-PQ-Z9P" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-860" y="375"/>
-        </scene>
         <!--Dictionary-->
         <scene sceneID="quJ-en-yfK">
             <objects>
@@ -104,7 +86,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rC1-Xl-KRo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="48.799999999999997" y="-482.60869565217394"/>
+            <point key="canvasLocation" x="49" y="-375"/>
         </scene>
         <!--Home Screen-->
         <scene sceneID="EHf-IW-A2E">
@@ -159,6 +141,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="49" y="375"/>
+        </scene>
+        <!--Audio Screen-->
+        <scene sceneID="gBq-R0-gkM">
+            <objects>
+                <viewController title="Audio Screen" id="wwv-Wm-wkc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7MQ-ye-Yvo"/>
+                        <viewControllerLayoutGuide type="bottom" id="gHG-TS-T6t"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yzb-bg-y55">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tnE-xG-49b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="49" y="1113"/>
         </scene>
         <!--Torch Screen-->
         <scene sceneID="tqT-xO-2c5">
