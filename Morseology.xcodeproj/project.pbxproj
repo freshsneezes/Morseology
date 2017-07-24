@@ -16,6 +16,8 @@
 		22FF3BE21F2599D200B5B292 /* MorseologyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BE11F2599D200B5B292 /* MorseologyTests.swift */; };
 		22FF3BED1F2599D200B5B292 /* MorseologyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BEC1F2599D200B5B292 /* MorseologyUITests.swift */; };
 		22FF3BFB1F25C45700B5B292 /* DictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BFA1F25C45700B5B292 /* DictionaryViewController.swift */; };
+		22FF3BFD1F25D18800B5B292 /* TorchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BFC1F25D18800B5B292 /* TorchViewController.swift */; };
+		22FF3BFF1F25D19F00B5B292 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BFE1F25D19F00B5B292 /* AudioViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		22FF3BEC1F2599D200B5B292 /* MorseologyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseologyUITests.swift; sourceTree = "<group>"; };
 		22FF3BEE1F2599D200B5B292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22FF3BFA1F25C45700B5B292 /* DictionaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryViewController.swift; sourceTree = "<group>"; };
+		22FF3BFC1F25D18800B5B292 /* TorchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TorchViewController.swift; sourceTree = "<group>"; };
+		22FF3BFE1F25D19F00B5B292 /* AudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				22FF3BC91F2599D200B5B292 /* AppDelegate.swift */,
 				22FF3BCB1F2599D200B5B292 /* ViewController.swift */,
 				22FF3BFA1F25C45700B5B292 /* DictionaryViewController.swift */,
+				22FF3BFC1F25D18800B5B292 /* TorchViewController.swift */,
+				22FF3BFE1F25D19F00B5B292 /* AudioViewController.swift */,
 				22FF3BCD1F2599D200B5B292 /* Main.storyboard */,
 				22FF3BD31F2599D200B5B292 /* Assets.xcassets */,
 				22FF3BD51F2599D200B5B292 /* LaunchScreen.storyboard */,
@@ -266,9 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				22FF3BD21F2599D200B5B292 /* Morseology.xcdatamodeld in Sources */,
+				22FF3BFD1F25D18800B5B292 /* TorchViewController.swift in Sources */,
 				22FF3BCC1F2599D200B5B292 /* ViewController.swift in Sources */,
 				22FF3BFB1F25C45700B5B292 /* DictionaryViewController.swift in Sources */,
 				22FF3BCA1F2599D200B5B292 /* AppDelegate.swift in Sources */,
+				22FF3BFF1F25D19F00B5B292 /* AudioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
