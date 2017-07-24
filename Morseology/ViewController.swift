@@ -20,10 +20,22 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    //The segues
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let identifier = segue.identifier {
+            //Dictionary
             if identifier == "displayDictionary" {
                 print ("Going to Dictionary")
+            } else {
+                //Torch
+                if identifier == "displayTorch" {
+                    print ("Going to torch")
+                } else {
+                    //Audio
+                    if identifier == "displayAudio" {
+                        print ("Going to audio")
+                    }
+                }
             }
         }
     }
