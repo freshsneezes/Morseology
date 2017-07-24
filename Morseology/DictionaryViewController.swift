@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 
 class DictionaryViewController: UIViewController {
+    @IBOutlet weak var englishTextField: UITextView!
    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let viewController = segue.destination as! ViewController

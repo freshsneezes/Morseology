@@ -214,12 +214,12 @@ Z
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="EnglishTextField" destination="M2D-yP-gfw" id="Rfl-WL-7EH"/>
+                        <outlet property="englishTextField" destination="M2D-yP-gfw" id="Qso-NA-VUp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r6i-Xe-dIF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1134" y="-393"/>
+            <point key="canvasLocation" x="1133.5999999999999" y="-393.55322338830587"/>
         </scene>
         <!--Home Screen-->
         <scene sceneID="HCV-vP-OQB">
