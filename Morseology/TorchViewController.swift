@@ -11,4 +11,8 @@ import UIKit
 
 class TorchViewController: UIViewController{
     
+    //To switch torch on
+    func switchOnTorch() {
+        
+    }
 }

@@ -26,14 +26,18 @@ class ViewController: UIViewController {
             //Dictionary
             if identifier == "displayDictionary" {
                 print ("Going to Dictionary")
+                //Actually showing dictionary
+                let dictionaryViewController = segue.destination as! DictionaryViewController
             } else {
                 //Torch
                 if identifier == "displayTorch" {
                     print ("Going to torch")
+                    let torchViewController = segue.destination as! TorchViewController
                 } else {
                     //Audio
                     if identifier == "displayAudio" {
                         print ("Going to audio")
+                        let audioViewController = segue.destination as! AudioViewController
                     }
                 }
             }
