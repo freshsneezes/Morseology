@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22FF3BCA1F2599D200B5B292 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BC91F2599D200B5B292 /* AppDelegate.swift */; };
+		22FF3BCC1F2599D200B5B292 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BCB1F2599D200B5B292 /* ViewController.swift */; };
+		22FF3BCF1F2599D200B5B292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FF3BCD1F2599D200B5B292 /* Main.storyboard */; };
+		22FF3BD21F2599D200B5B292 /* Morseology.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BD01F2599D200B5B292 /* Morseology.xcdatamodeld */; };
+		22FF3BD41F2599D200B5B292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FF3BD31F2599D200B5B292 /* Assets.xcassets */; };
+		22FF3BD71F2599D200B5B292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FF3BD51F2599D200B5B292 /* LaunchScreen.storyboard */; };
+		22FF3BE21F2599D200B5B292 /* MorseologyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BE11F2599D200B5B292 /* MorseologyTests.swift */; };
+		22FF3BED1F2599D200B5B292 /* MorseologyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BEC1F2599D200B5B292 /* MorseologyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22FF3BDE1F2599D200B5B292 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22FF3BBE1F2599D200B5B292 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22FF3BC51F2599D200B5B292;
+			remoteInfo = Morseology;
+		};
+		22FF3BE91F2599D200B5B292 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22FF3BBE1F2599D200B5B292 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22FF3BC51F2599D200B5B292;
+			remoteInfo = Morseology;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22FF3BC61F2599D200B5B292 /* Morseology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Morseology.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FF3BC91F2599D200B5B292 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22FF3BCB1F2599D200B5B292 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22FF3BCE1F2599D200B5B292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22FF3BD11F2599D200B5B292 /* Morseology.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Morseology.xcdatamodel; sourceTree = "<group>"; };
+		22FF3BD31F2599D200B5B292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22FF3BD61F2599D200B5B292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22FF3BD81F2599D200B5B292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FF3BDD1F2599D200B5B292 /* MorseologyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorseologyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FF3BE11F2599D200B5B292 /* MorseologyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseologyTests.swift; sourceTree = "<group>"; };
+		22FF3BE31F2599D200B5B292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FF3BE81F2599D200B5B292 /* MorseologyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorseologyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FF3BEC1F2599D200B5B292 /* MorseologyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseologyUITests.swift; sourceTree = "<group>"; };
+		22FF3BEE1F2599D200B5B292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22FF3BC31F2599D200B5B292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FF3BDA1F2599D200B5B292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FF3BE51F2599D200B5B292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22FF3BBD1F2599D200B5B292 = {
+			isa = PBXGroup;
+			children = (
+				22FF3BC81F2599D200B5B292 /* Morseology */,
+				22FF3BE01F2599D200B5B292 /* MorseologyTests */,
+				22FF3BEB1F2599D200B5B292 /* MorseologyUITests */,
+				22FF3BC71F2599D200B5B292 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22FF3BC71F2599D200B5B292 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22FF3BC61F2599D200B5B292 /* Morseology.app */,
+				22FF3BDD1F2599D200B5B292 /* MorseologyTests.xctest */,
+				22FF3BE81F2599D200B5B292 /* MorseologyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22FF3BC81F2599D200B5B292 /* Morseology */ = {
+			isa = PBXGroup;
+			children = (
+				22FF3BC91F2599D200B5B292 /* AppDelegate.swift */,
+				22FF3BCB1F2599D200B5B292 /* ViewController.swift */,
+				22FF3BCD1F2599D200B5B292 /* Main.storyboard */,
+				22FF3BD31F2599D200B5B292 /* Assets.xcassets */,
+				22FF3BD51F2599D200B5B292 /* LaunchScreen.storyboard */,
+				22FF3BD81F2599D200B5B292 /* Info.plist */,
+				22FF3BD01F2599D200B5B292 /* Morseology.xcdatamodeld */,
+			);
+			path = Morseology;
+			sourceTree = "<group>";
+		};
+		22FF3BE01F2599D200B5B292 /* MorseologyTests */ = {
+			isa = PBXGroup;
+			children = (
+				22FF3BE11F2599D200B5B292 /* MorseologyTests.swift */,
+				22FF3BE31F2599D200B5B292 /* Info.plist */,
+			);
+			path = MorseologyTests;
+			sourceTree = "<group>";
+		};
+		22FF3BEB1F2599D200B5B292 /* MorseologyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22FF3BEC1F2599D200B5B292 /* MorseologyUITests.swift */,
+				22FF3BEE1F2599D200B5B292 /* Info.plist */,
+			);
+			path = MorseologyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22FF3BC51F2599D200B5B292 /* Morseology */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FF3BF11F2599D200B5B292 /* Build configuration list for PBXNativeTarget "Morseology" */;
+			buildPhases = (
+				22FF3BC21F2599D200B5B292 /* Sources */,
+				22FF3BC31F2599D200B5B292 /* Frameworks */,
+				22FF3BC41F2599D200B5B292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Morseology;
+			productName = Morseology;
+			productReference = 22FF3BC61F2599D200B5B292 /* Morseology.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22FF3BDC1F2599D200B5B292 /* MorseologyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FF3BF41F2599D200B5B292 /* Build configuration list for PBXNativeTarget "MorseologyTests" */;
+			buildPhases = (
+				22FF3BD91F2599D200B5B292 /* Sources */,
+				22FF3BDA1F2599D200B5B292 /* Frameworks */,
+				22FF3BDB1F2599D200B5B292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22FF3BDF1F2599D200B5B292 /* PBXTargetDependency */,
+			);
+			name = MorseologyTests;
+			productName = MorseologyTests;
+			productReference = 22FF3BDD1F2599D200B5B292 /* MorseologyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22FF3BE71F2599D200B5B292 /* MorseologyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FF3BF71F2599D200B5B292 /* Build configuration list for PBXNativeTarget "MorseologyUITests" */;
+			buildPhases = (
+				22FF3BE41F2599D200B5B292 /* Sources */,
+				22FF3BE51F2599D200B5B292 /* Frameworks */,
+				22FF3BE61F2599D200B5B292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22FF3BEA1F2599D200B5B292 /* PBXTargetDependency */,
+			);
+			name = MorseologyUITests;
+			productName = MorseologyUITests;
+			productReference = 22FF3BE81F2599D200B5B292 /* MorseologyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22FF3BBE1F2599D200B5B292 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Nerds In A Room";
+				TargetAttributes = {
+					22FF3BC51F2599D200B5B292 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					22FF3BDC1F2599D200B5B292 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22FF3BC51F2599D200B5B292;
+					};
+					22FF3BE71F2599D200B5B292 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22FF3BC51F2599D200B5B292;
+					};
+				};
+			};
+			buildConfigurationList = 22FF3BC11F2599D200B5B292 /* Build configuration list for PBXProject "Morseology" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22FF3BBD1F2599D200B5B292;
+			productRefGroup = 22FF3BC71F2599D200B5B292 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22FF3BC51F2599D200B5B292 /* Morseology */,
+				22FF3BDC1F2599D200B5B292 /* MorseologyTests */,
+				22FF3BE71F2599D200B5B292 /* MorseologyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22FF3BC41F2599D200B5B292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FF3BD71F2599D200B5B292 /* LaunchScreen.storyboard in Resources */,
+				22FF3BD41F2599D200B5B292 /* Assets.xcassets in Resources */,
+				22FF3BCF1F2599D200B5B292 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FF3BDB1F2599D200B5B292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FF3BE61F2599D200B5B292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22FF3BC21F2599D200B5B292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FF3BD21F2599D200B5B292 /* Morseology.xcdatamodeld in Sources */,
+				22FF3BCC1F2599D200B5B292 /* ViewController.swift in Sources */,
+				22FF3BCA1F2599D200B5B292 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FF3BD91F2599D200B5B292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FF3BE21F2599D200B5B292 /* MorseologyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FF3BE41F2599D200B5B292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FF3BED1F2599D200B5B292 /* MorseologyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22FF3BDF1F2599D200B5B292 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22FF3BC51F2599D200B5B292 /* Morseology */;
+			targetProxy = 22FF3BDE1F2599D200B5B292 /* PBXContainerItemProxy */;
+		};
+		22FF3BEA1F2599D200B5B292 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22FF3BC51F2599D200B5B292 /* Morseology */;
+			targetProxy = 22FF3BE91F2599D200B5B292 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22FF3BCD1F2599D200B5B292 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FF3BCE1F2599D200B5B292 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22FF3BD51F2599D200B5B292 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FF3BD61F2599D200B5B292 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22FF3BEF1F2599D200B5B292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22FF3BF01F2599D200B5B292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22FF3BF21F2599D200B5B292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Morseology/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.Morseology;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		22FF3BF31F2599D200B5B292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Morseology/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.Morseology;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		22FF3BF51F2599D200B5B292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MorseologyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.MorseologyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Morseology.app/Morseology";
+			};
+			name = Debug;
+		};
+		22FF3BF61F2599D200B5B292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MorseologyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.MorseologyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Morseology.app/Morseology";
+			};
+			name = Release;
+		};
+		22FF3BF81F2599D200B5B292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MorseologyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.MorseologyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Morseology;
+			};
+			name = Debug;
+		};
+		22FF3BF91F2599D200B5B292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MorseologyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.MorseologyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Morseology;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22FF3BC11F2599D200B5B292 /* Build configuration list for PBXProject "Morseology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FF3BEF1F2599D200B5B292 /* Debug */,
+				22FF3BF01F2599D200B5B292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22FF3BF11F2599D200B5B292 /* Build configuration list for PBXNativeTarget "Morseology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FF3BF21F2599D200B5B292 /* Debug */,
+				22FF3BF31F2599D200B5B292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22FF3BF41F2599D200B5B292 /* Build configuration list for PBXNativeTarget "MorseologyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FF3BF51F2599D200B5B292 /* Debug */,
+				22FF3BF61F2599D200B5B292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22FF3BF71F2599D200B5B292 /* Build configuration list for PBXNativeTarget "MorseologyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FF3BF81F2599D200B5B292 /* Debug */,
+				22FF3BF91F2599D200B5B292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		22FF3BD01F2599D200B5B292 /* Morseology.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22FF3BD11F2599D200B5B292 /* Morseology.xcdatamodel */,
+			);
+			currentVersion = 22FF3BD11F2599D200B5B292 /* Morseology.xcdatamodel */;
+			path = Morseology.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 22FF3BBE1F2599D200B5B292 /* Project object */;
+}
