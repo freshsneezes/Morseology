@@ -11,5 +11,8 @@ import UIKit
 
 class DictionaryViewController: UIViewController {
    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let viewController = segue.destination as! ViewController
+    }
     
 }
