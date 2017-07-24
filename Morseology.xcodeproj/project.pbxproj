@@ -15,6 +15,7 @@
 		22FF3BD71F2599D200B5B292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FF3BD51F2599D200B5B292 /* LaunchScreen.storyboard */; };
 		22FF3BE21F2599D200B5B292 /* MorseologyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BE11F2599D200B5B292 /* MorseologyTests.swift */; };
 		22FF3BED1F2599D200B5B292 /* MorseologyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BEC1F2599D200B5B292 /* MorseologyUITests.swift */; };
+		22FF3BFB1F25C45700B5B292 /* DictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BFA1F25C45700B5B292 /* DictionaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		22FF3BE81F2599D200B5B292 /* MorseologyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorseologyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FF3BEC1F2599D200B5B292 /* MorseologyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseologyUITests.swift; sourceTree = "<group>"; };
 		22FF3BEE1F2599D200B5B292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FF3BFA1F25C45700B5B292 /* DictionaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				22FF3BC91F2599D200B5B292 /* AppDelegate.swift */,
 				22FF3BCB1F2599D200B5B292 /* ViewController.swift */,
+				22FF3BFA1F25C45700B5B292 /* DictionaryViewController.swift */,
 				22FF3BCD1F2599D200B5B292 /* Main.storyboard */,
 				22FF3BD31F2599D200B5B292 /* Assets.xcassets */,
 				22FF3BD51F2599D200B5B292 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				22FF3BD21F2599D200B5B292 /* Morseology.xcdatamodeld in Sources */,
 				22FF3BCC1F2599D200B5B292 /* ViewController.swift in Sources */,
+				22FF3BFB1F25C45700B5B292 /* DictionaryViewController.swift in Sources */,
 				22FF3BCA1F2599D200B5B292 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +515,7 @@
 				22FF3BF31F2599D200B5B292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22FF3BF41F2599D200B5B292 /* Build configuration list for PBXNativeTarget "MorseologyTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +524,7 @@
 				22FF3BF61F2599D200B5B292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22FF3BF71F2599D200B5B292 /* Build configuration list for PBXNativeTarget "MorseologyUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +533,7 @@
 				22FF3BF91F2599D200B5B292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
