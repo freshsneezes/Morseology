@@ -1,26 +1,221 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="t98-ss-D0K">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Audio Screen-->
+        <scene sceneID="QqL-2l-EfC">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Audio Screen" id="SyI-oU-BQU" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="hL9-BF-QmE"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jr0-94-JJ2"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="N5C-Jg-xf3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3yj-5B-ij0">
+                                <rect key="frame" x="165" y="617" width="45" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="BLEEP"/>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="pgc-x0-hgy">
+                                <rect key="frame" x="243" y="617" width="118" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oYb-WQ-Lvc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="49" y="1113"/>
+        </scene>
+        <!--Dictionary-->
+        <scene sceneID="Y5T-D3-VAG">
+            <objects>
+                <viewController title="Dictionary" id="H56-ig-SBY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wqd-6Q-Ozh"/>
+                        <viewControllerLayoutGuide type="bottom" id="KD6-aI-ooy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="931-Tv-nNM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qHk-vK-Utx">
+                                <rect key="frame" x="16" y="20" width="343" height="35"/>
+                                <color key="backgroundColor" red="0.59012794489999998" green="0.74012762310000002" blue="0.99754649399999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="17"/>
+                                <state key="normal" title="MORSEOLOGY">
+                                    <color key="titleColor" red="0.49385023119999999" green="0.50202494860000002" blue="0.50198948379999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="poY-Ja-ANW">
+                                <rect key="frame" x="0.0" y="48.5" width="370" height="613.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ZdG-6r-KYL">
+                                        <rect key="frame" x="0.0" y="0.0" width="192.5" height="613.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="English" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TSD-K8-oxe">
+                                                <rect key="frame" x="68.5" y="0.0" width="55.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.59012794489999998" green="0.74012762310000002" blue="0.99754649399999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="M2D-yP-gfw">
+                                                <rect key="frame" x="7.5" y="20.5" width="177.5" height="593"/>
+                                                <color key="backgroundColor" red="0.74851351980000003" green="0.76481652259999999" blue="0.76479578020000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zvL-LK-TbS">
+                                        <rect key="frame" x="192.5" y="0.0" width="177.5" height="613.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Morse Code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="im1-PC-fXw">
+                                                <rect key="frame" x="42" y="0.0" width="93.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.59012794489999998" green="0.74012762310000002" blue="0.99754649399999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2bu-kX-R04">
+                                                <rect key="frame" x="0.0" y="20.5" width="177.5" height="593"/>
+                                                <color key="backgroundColor" red="0.74851351980000003" green="0.76481652259999999" blue="0.76479578020000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.49385023119999999" green="0.50202494860000002" blue="0.50198948379999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.59012794489999998" green="0.74012762310000002" blue="0.99754649399999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="poY-Ja-ANW" firstAttribute="leading" secondItem="931-Tv-nNM" secondAttribute="leading" id="6KS-Ae-GIP"/>
+                            <constraint firstItem="KD6-aI-ooy" firstAttribute="top" secondItem="poY-Ja-ANW" secondAttribute="bottom" constant="5" id="MsF-5B-tTI"/>
+                            <constraint firstAttribute="trailing" secondItem="poY-Ja-ANW" secondAttribute="trailing" constant="5" id="R02-Yz-GAJ"/>
+                            <constraint firstItem="qHk-vK-Utx" firstAttribute="leading" secondItem="931-Tv-nNM" secondAttribute="leadingMargin" id="epy-1Y-v2Q"/>
+                            <constraint firstItem="qHk-vK-Utx" firstAttribute="top" secondItem="wqd-6Q-Ozh" secondAttribute="bottom" id="n7p-Iv-gpX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qHk-vK-Utx" secondAttribute="trailing" id="pNT-dH-fCD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qHk-vK-Utx" secondAttribute="trailing" id="rUO-oF-NHS"/>
+                            <constraint firstItem="qHk-vK-Utx" firstAttribute="leading" secondItem="931-Tv-nNM" secondAttribute="leadingMargin" id="sRq-F9-MHf"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r6i-Xe-dIF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48.799999999999997" y="-375.56221889055473"/>
+        </scene>
+        <!--Home Screen-->
+        <scene sceneID="HCV-vP-OQB">
+            <objects>
+                <viewController title="Home Screen" id="t98-ss-D0K" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PuN-ez-jfB"/>
+                        <viewControllerLayoutGuide type="bottom" id="zG0-rZ-9ck"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="luO-6Z-dBE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="MORSEOLOGY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nso-Wj-omM">
+                                <rect key="frame" x="16" y="20" width="343" height="23.5"/>
+                                <color key="backgroundColor" red="0.59012794489999998" green="0.74012762310000002" blue="0.99754649399999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="18"/>
+                                <color key="textColor" red="0.49385023119999999" green="0.50202494860000002" blue="0.50198948379999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fMY-io-CbR" userLabel="Plaintext">
+                                <rect key="frame" x="21" y="51" width="333" height="128"/>
+                                <color key="backgroundColor" red="0.74765400969999996" green="0.76356154190000003" blue="0.76356154190000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.59012794489999998" green="0.74012762310000002" blue="0.99754649399999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vBa-Mg-OCv" userLabel="Ciphertext">
+                                <rect key="frame" x="21" y="187" width="333" height="128"/>
+                                <color key="backgroundColor" red="0.74851351980000003" green="0.76481652259999999" blue="0.76479578020000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bwO-5g-gzG">
+                                <rect key="frame" x="152" y="629" width="70" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Dictionary"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YSO-c3-WRH">
+                                <rect key="frame" x="19" y="629" width="40" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Audio"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pN5-po-mQS">
+                                <rect key="frame" x="314" y="629" width="35" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Light"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.49385023119999999" green="0.50202494860000002" blue="0.50198948379999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.59012794489999998" green="0.74012762310000002" blue="0.99754649399999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="vBa-Mg-OCv" secondAttribute="trailing" constant="5" id="Gez-rK-GWM"/>
+                            <constraint firstItem="fMY-io-CbR" firstAttribute="leading" secondItem="luO-6Z-dBE" secondAttribute="leadingMargin" constant="5" id="RoS-mi-1No"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fMY-io-CbR" secondAttribute="trailing" constant="5" id="VM0-7k-FWC"/>
+                            <constraint firstItem="vBa-Mg-OCv" firstAttribute="top" secondItem="fMY-io-CbR" secondAttribute="bottom" constant="5" id="WUh-F1-awe"/>
+                            <constraint firstItem="nso-Wj-omM" firstAttribute="top" secondItem="luO-6Z-dBE" secondAttribute="topMargin" constant="10" id="dsE-Yv-j29"/>
+                            <constraint firstItem="nso-Wj-omM" firstAttribute="leading" secondItem="luO-6Z-dBE" secondAttribute="leadingMargin" id="gnZ-56-SOY"/>
+                            <constraint firstItem="fMY-io-CbR" firstAttribute="top" secondItem="nso-Wj-omM" secondAttribute="bottom" constant="5" id="mNh-Ei-SFp"/>
+                            <constraint firstItem="vBa-Mg-OCv" firstAttribute="leading" secondItem="luO-6Z-dBE" secondAttribute="leadingMargin" constant="5" id="pDf-c5-FM7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nso-Wj-omM" secondAttribute="trailing" id="qby-jb-bYw"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="554-nb-OKa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="49" y="375"/>
+        </scene>
+        <!--Torch Screen-->
+        <scene sceneID="TYV-s7-IOX">
+            <objects>
+                <viewController title="Torch Screen" id="3Xz-fh-VSd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2KG-1D-sf7"/>
+                        <viewControllerLayoutGuide type="bottom" id="hdW-cT-DNf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TZa-Ba-Q0t">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zne-wz-4hv">
+                                <rect key="frame" x="126" y="617" width="122" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="LIGHT IT UP"/>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="SpL-Je-Lu1">
+                                <rect key="frame" x="243" y="617" width="118" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I0m-3b-wsl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="912.79999999999995" y="374.66266866566718"/>
         </scene>
     </scenes>
 </document>
