@@ -144,7 +144,7 @@ Z
 ,
 .
 ?
-!</string>
+'</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -198,7 +198,12 @@ Z
 -....
 --…
 ---..
-----.</string>
+----.
+
+--..--
+.-.-.-
+..--..
+.----.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
