@@ -51,6 +51,17 @@ class ViewController: UIViewController {
         }
     }
     
-
+    @IBOutlet weak var EnglishTextField: UITextView!
+    @IBOutlet weak var MorseTextField: UITextView!
+    
+    //Translating Eng --> Morse
+    func translate() {
+        var ciphertextCharacter: String = ""
+        if let plaintext = String(EnglishTextField.text!) {
+            for character in 0..<plaintext.characters.count {
+                // For each character in the plaintext, find in dictionary and return Morse equivalent
+            }
+        }
+    }
 }
 

@@ -326,6 +326,10 @@ Z
                             <constraint firstItem="vBa-Mg-OCv" firstAttribute="top" secondItem="fMY-io-CbR" secondAttribute="bottom" constant="8" symbolic="YES" id="v6y-qS-mXp"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="EnglishTextField" destination="fMY-io-CbR" id="QOM-jk-WbV"/>
+                        <outlet property="MorseTextField" destination="vBa-Mg-OCv" id="7PF-AG-l2z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="554-nb-OKa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
