@@ -18,6 +18,7 @@
 		22FF3BFB1F25C45700B5B292 /* DictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BFA1F25C45700B5B292 /* DictionaryViewController.swift */; };
 		22FF3BFD1F25D18800B5B292 /* TorchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BFC1F25D18800B5B292 /* TorchViewController.swift */; };
 		22FF3BFF1F25D19F00B5B292 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BFE1F25D19F00B5B292 /* AudioViewController.swift */; };
+		22FF3C011F26E3DF00B5B292 /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 22FF3C001F26E3DF00B5B292 /* beep.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		22FF3BFA1F25C45700B5B292 /* DictionaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryViewController.swift; sourceTree = "<group>"; };
 		22FF3BFC1F25D18800B5B292 /* TorchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TorchViewController.swift; sourceTree = "<group>"; };
 		22FF3BFE1F25D19F00B5B292 /* AudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
+		22FF3C001F26E3DF00B5B292 /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = beep.wav; path = Sounds/beep.wav; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				22FF3BE01F2599D200B5B292 /* MorseologyTests */,
 				22FF3BEB1F2599D200B5B292 /* MorseologyUITests */,
 				22FF3BC71F2599D200B5B292 /* Products */,
+				22FF3C021F26E3FA00B5B292 /* Sounds */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +138,15 @@
 				22FF3BEE1F2599D200B5B292 /* Info.plist */,
 			);
 			path = MorseologyUITests;
+			sourceTree = "<group>";
+		};
+		22FF3C021F26E3FA00B5B292 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				22FF3C001F26E3DF00B5B292 /* beep.wav */,
+			);
+			name = Sounds;
+			path = Morseology;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22FF3C011F26E3DF00B5B292 /* beep.wav in Resources */,
 				22FF3BD71F2599D200B5B292 /* LaunchScreen.storyboard in Resources */,
 				22FF3BD41F2599D200B5B292 /* Assets.xcassets in Resources */,
 				22FF3BCF1F2599D200B5B292 /* Main.storyboard in Resources */,

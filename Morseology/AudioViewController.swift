@@ -8,7 +8,10 @@
 
 import Foundation
 import UIKit
+import AVFoundation
 
 class AudioViewController: UIViewController{
+    var beep: AVAudioPlayer!
+    
     
 }
