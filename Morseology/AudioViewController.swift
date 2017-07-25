@@ -11,23 +11,17 @@ import UIKit
 import AVFoundation
 
 class AudioViewController: UIViewController{
-    var beep: AVAudioPlayer!
     
-    let path = Bundle.main.path(forResource: "beep.wav", ofType: nil)!
-    let url = URL(fileURLWithPath: <#T##String#>)
-    
-    do {
-        let sound = try AVAudioPlayer(contentsOf: url)
-        shortBeep = sound
-        sound.play()
-    } catch {
-        print ("Couldn't load file")
-    }
-    
-    /* To stop sound: 
-    if shortBeep )= nil {
-        shortBeep.stop()
-        shortBeep = nil
+    func play(for resource: String, tpe: String) {
+        guard let path = Bundle.main.path(forResource: resource, ofType: type) else {return}
+        let sound = URL(fileURLWithPath: path)
+        do {
+            let audioPlayer = try AVAudioPlayer(contentsOf: sound)
+            audioPlayer.prepareToPlay()
+            audioPlayer.play()
+        } catch {
+            assert(false, error.localizedDescription)
+        }
     }
     
 }

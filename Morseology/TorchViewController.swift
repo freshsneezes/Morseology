@@ -12,6 +12,8 @@ import AVFoundation
 
 class TorchViewController: UIViewController{
     
+    @IBOutlet weak var lightItUp: UIButton!
+    
     //To switch torch on
     func torchOn(on: Bool) {
         guard let device = AVCaptureDevice.defaultDevice(withMediaType: AVMediaTypeVideo) else { return }
