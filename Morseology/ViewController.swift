@@ -68,6 +68,7 @@ class ViewController: UIViewController, UITextViewDelegate {
             }
         }
         print(ciphertext)
+        //Setting Morse text field to new ciphertext
         MorseTextField.text = ciphertext
     }
     
