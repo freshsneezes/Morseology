@@ -57,11 +57,15 @@ class ViewController: UIViewController {
     //Translating Eng --> Morse
     func translate() {
         var ciphertextCharacter: String = ""
+        var ciphertext: String = ""
         if let plaintext = String(EnglishTextField.text!) {
-            for character in 0..<plaintext.characters.count {
+            for character in plaintext.characters {
                 // For each character in the plaintext, find in dictionary and return Morse equivalent
+                ciphertextCharacter = englishToMorse[character]!
+                ciphertext += ciphertextCharacter
             }
         }
+        print(ciphertext)
     }
 }
 
