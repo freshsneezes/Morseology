@@ -8,10 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        EnglishTextField.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -56,11 +57,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var EnglishTextField: UITextView!
     @IBOutlet weak var MorseTextField: UITextView!
     
-    //Translating Eng --> Morse
-    @IBAction func translate(_ sender: UITextView) {
+    func textViewDidChange(_ textView: UITextView) {
         var ciphertextCharacter: String = ""
         var ciphertext: String = ""
-        if let plaintext = String(EnglishTextField.text!) {
+        if let plaintext = EnglishTextField.text?.uppercased() {
             for character in plaintext.characters {
                 // For each character in the plaintext, find in dictionary and return Morse equivalent
                 ciphertextCharacter = englishToMorse[character]!
@@ -68,6 +68,11 @@ class ViewController: UIViewController {
             }
         }
         print(ciphertext)
+        MorseTextField.text = ciphertext
     }
+    
+    //Translating Eng --> Morse
+
+
 }
 
