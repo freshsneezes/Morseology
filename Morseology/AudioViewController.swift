@@ -26,6 +26,7 @@ class AudioViewController: UIViewController{
     }
     var player : AVAudioPlayer?
     
+    //Making the beep
     func playSound(){
         let path = Bundle.main.path(forResource: "alert", ofType:"mp3")!
         let url = URL(fileURLWithPath: path)
@@ -39,6 +40,22 @@ class AudioViewController: UIViewController{
         } catch {
             print("error loading file")
             // couldn't load file :(
+        }
+    }
+    
+    //Beeping out the Morse
+    func morseBeeps() {
+        for character in morseTextField.text {
+            if character == "." {
+                playSound()
+            } else {
+                if character == "-" {
+                    //change later, needs to be longer noise
+                    playSound()
+                } else {
+                    //leave a gap
+                }
+            }
         }
     }
     

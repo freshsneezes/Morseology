@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2273B9D11F27263A00C201D9 /* Longer beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2273B9D01F27263A00C201D9 /* Longer beep.wav */; };
 		22FF3BCA1F2599D200B5B292 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BC91F2599D200B5B292 /* AppDelegate.swift */; };
 		22FF3BCC1F2599D200B5B292 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BCB1F2599D200B5B292 /* ViewController.swift */; };
 		22FF3BCF1F2599D200B5B292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FF3BCD1F2599D200B5B292 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2273B9D01F27263A00C201D9 /* Longer beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Longer beep.wav"; path = "Sounds/Longer beep.wav"; sourceTree = SOURCE_ROOT; };
 		22FF3BC61F2599D200B5B292 /* Morseology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Morseology.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FF3BC91F2599D200B5B292 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22FF3BCB1F2599D200B5B292 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				22FF3C001F26E3DF00B5B292 /* beep.wav */,
+				2273B9D01F27263A00C201D9 /* Longer beep.wav */,
 			);
 			name = Sounds;
 			path = Morseology;
@@ -263,6 +266,7 @@
 				22FF3BD71F2599D200B5B292 /* LaunchScreen.storyboard in Resources */,
 				22FF3BD41F2599D200B5B292 /* Assets.xcassets in Resources */,
 				22FF3BCF1F2599D200B5B292 /* Main.storyboard in Resources */,
+				2273B9D11F27263A00C201D9 /* Longer beep.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
