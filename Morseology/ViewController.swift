@@ -63,8 +63,11 @@ class ViewController: UIViewController, UITextViewDelegate {
         if let plaintext = EnglishTextField.text?.uppercased() {
             for character in plaintext.characters {
                 // For each character in the plaintext, find in dictionary and return Morse equivalent
-                ciphertextCharacter = englishToMorse[character]!
-                ciphertext += ciphertextCharacter
+                if let ciphertextCharacter = englishToMorse[character] {
+                    ciphertext += ciphertextCharacter
+                } else {
+                    ciphertext += "[Unavailable character]"
+                }
             }
         }
         print(ciphertext)
