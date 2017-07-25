@@ -144,8 +144,16 @@ Z
 ,
 .
 ?
-'</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+!
+'
+-
+/
+(
+)
+\
+@
+=</string>
+                                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
@@ -203,8 +211,16 @@ Z
 --..--
 .-.-.-
 ..--..
-.----.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+-.-.--
+.----.
+-....-
+-..-.
+-.--.-
+-.--.-
+.-..-.
+.--.-.
+-...-</string>
+                                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
