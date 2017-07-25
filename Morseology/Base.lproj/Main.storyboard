@@ -329,6 +329,7 @@ Z
                     <connections>
                         <outlet property="EnglishTextField" destination="fMY-io-CbR" id="QOM-jk-WbV"/>
                         <outlet property="MorseTextField" destination="vBa-Mg-OCv" id="7PF-AG-l2z"/>
+                        <outlet property="TextFieldEnglish" destination="fMY-io-CbR" id="Qwa-nT-OD9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="554-nb-OKa" userLabel="First Responder" sceneMemberID="firstResponder"/>

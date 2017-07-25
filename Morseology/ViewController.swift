@@ -51,11 +51,13 @@ class ViewController: UIViewController {
         }
     }
     
+    
+    
     @IBOutlet weak var EnglishTextField: UITextView!
     @IBOutlet weak var MorseTextField: UITextView!
     
     //Translating Eng --> Morse
-    func translate() {
+    @IBAction func translate(_ sender: UITextView) {
         var ciphertextCharacter: String = ""
         var ciphertext: String = ""
         if let plaintext = String(EnglishTextField.text!) {
