@@ -12,6 +12,7 @@ import AVFoundation
 
 class AudioViewController: UIViewController{
     
+    @IBOutlet weak var AudioController: UIView!
     func play(for resource: String, tpe: String) {
         guard let path = Bundle.main.path(forResource: resource, ofType: type) else {return}
         let sound = URL(fileURLWithPath: path)

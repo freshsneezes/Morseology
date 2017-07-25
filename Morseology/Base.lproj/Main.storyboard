@@ -53,6 +53,9 @@
                             <constraint firstItem="vac-g9-NWl" firstAttribute="trailing" secondItem="pgc-x0-hgy" secondAttribute="trailing" id="won-UA-NHR"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="AudioController" destination="N5C-Jg-xf3" id="EYk-xu-Tyh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oYb-WQ-Lvc" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="YUf-6G-tEG" userLabel="Exit" sceneMemberID="exit"/>
@@ -246,21 +249,21 @@ Z
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bwO-5g-gzG">
-                                <rect key="frame" x="152" y="629" width="70" height="30"/>
+                                <rect key="frame" x="152.5" y="629" width="70" height="30"/>
                                 <state key="normal" title="Dictionary"/>
                                 <connections>
                                     <segue destination="H56-ig-SBY" kind="show" identifier="displayDictionary" id="jWm-xB-dXy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YSO-c3-WRH">
-                                <rect key="frame" x="19" y="629" width="40" height="30"/>
+                                <rect key="frame" x="19.5" y="629" width="40" height="30"/>
                                 <state key="normal" title="Audio"/>
                                 <connections>
                                     <segue destination="SyI-oU-BQU" kind="show" identifier="displayAudio" id="hk5-pU-mfe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pN5-po-mQS">
-                                <rect key="frame" x="314" y="629" width="35" height="30"/>
+                                <rect key="frame" x="314.5" y="629" width="35" height="30"/>
                                 <state key="normal" title="Light"/>
                                 <connections>
                                     <segue destination="3Xz-fh-VSd" kind="show" identifier="displayTorch" id="WRD-OX-ueF"/>
