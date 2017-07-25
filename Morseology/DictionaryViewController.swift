@@ -11,7 +11,10 @@ import UIKit
 
 class DictionaryViewController: UIViewController {
     @IBOutlet weak var englishTextField: UITextView!
-    //Trying to set the English text field's text
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let viewController = segue.destination as! ViewController

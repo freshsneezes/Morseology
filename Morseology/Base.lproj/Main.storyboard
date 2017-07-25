@@ -97,8 +97,8 @@
                                                 <color key="textColor" red="0.59012794489999998" green="0.74012762310000002" blue="0.99754649399999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2D-yP-gfw">
-                                                <rect key="frame" x="14" y="20.5" width="155" height="591.5"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2D-yP-gfw">
+                                                <rect key="frame" x="14" y="20.5" width="154.5" height="591.5"/>
                                                 <color key="backgroundColor" red="0.74851351980000003" green="0.76481652259999999" blue="0.76479578020000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <string key="text">A
 B
@@ -157,7 +157,7 @@ Z
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2bu-kX-R04">
-                                                <rect key="frame" x="14" y="20.5" width="155" height="591.5"/>
+                                                <rect key="frame" x="14" y="20.5" width="154.5" height="591.5"/>
                                                 <color key="backgroundColor" red="0.74851351980000003" green="0.76481652259999999" blue="0.76479578020000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <string key="text">.-
 -…
@@ -211,12 +211,16 @@ Z
                         <color key="backgroundColor" red="0.49385023119999999" green="0.50202494860000002" blue="0.50198948379999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.59012794489999998" green="0.74012762310000002" blue="0.99754649399999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="2bu-kX-R04" secondAttribute="trailing" constant="3" id="B6y-T4-tBo"/>
                             <constraint firstItem="KD6-aI-ooy" firstAttribute="top" secondItem="poY-Ja-ANW" secondAttribute="bottom" constant="5" id="MsF-5B-tTI"/>
                             <constraint firstItem="poY-Ja-ANW" firstAttribute="top" secondItem="qHk-vK-Utx" secondAttribute="bottom" constant="5" id="Oae-cd-HGD"/>
                             <constraint firstAttribute="trailing" secondItem="poY-Ja-ANW" secondAttribute="trailing" constant="5" id="Rhp-h5-fw7"/>
                             <constraint firstItem="qHk-vK-Utx" firstAttribute="leading" secondItem="931-Tv-nNM" secondAttribute="leadingMargin" id="aKc-Eu-ayC"/>
+                            <constraint firstItem="M2D-yP-gfw" firstAttribute="top" secondItem="wqd-6Q-Ozh" secondAttribute="bottom" constant="50.5" id="bV8-lc-oUE"/>
                             <constraint firstItem="poY-Ja-ANW" firstAttribute="leading" secondItem="931-Tv-nNM" secondAttribute="leading" constant="5" id="cUy-GH-1QJ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="qHk-vK-Utx" secondAttribute="trailing" id="d46-ch-9U7"/>
+                            <constraint firstItem="M2D-yP-gfw" firstAttribute="leading" secondItem="931-Tv-nNM" secondAttribute="leadingMargin" constant="3" id="f4s-gs-kzj"/>
+                            <constraint firstItem="2bu-kX-R04" firstAttribute="top" secondItem="wqd-6Q-Ozh" secondAttribute="bottom" constant="50.5" id="gN7-0t-Z6T"/>
                             <constraint firstItem="qHk-vK-Utx" firstAttribute="top" secondItem="wqd-6Q-Ozh" secondAttribute="bottom" id="lxH-fg-Nac"/>
                         </constraints>
                     </view>
