@@ -19,6 +19,7 @@
 		22FF3BFD1F25D18800B5B292 /* TorchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BFC1F25D18800B5B292 /* TorchViewController.swift */; };
 		22FF3BFF1F25D19F00B5B292 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BFE1F25D19F00B5B292 /* AudioViewController.swift */; };
 		22FF3C011F26E3DF00B5B292 /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 22FF3C001F26E3DF00B5B292 /* beep.wav */; };
+		22FF3C041F26EB6100B5B292 /* EnglishToMorse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3C031F26EB6100B5B292 /* EnglishToMorse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		22FF3BFC1F25D18800B5B292 /* TorchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TorchViewController.swift; sourceTree = "<group>"; };
 		22FF3BFE1F25D19F00B5B292 /* AudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
 		22FF3C001F26E3DF00B5B292 /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = beep.wav; path = Sounds/beep.wav; sourceTree = SOURCE_ROOT; };
+		22FF3C031F26EB6100B5B292 /* EnglishToMorse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnglishToMorse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				22FF3BFC1F25D18800B5B292 /* TorchViewController.swift */,
 				22FF3BFE1F25D19F00B5B292 /* AudioViewController.swift */,
 				22FF3BCD1F2599D200B5B292 /* Main.storyboard */,
+				22FF3C031F26EB6100B5B292 /* EnglishToMorse.swift */,
 				22FF3BD31F2599D200B5B292 /* Assets.xcassets */,
 				22FF3BD51F2599D200B5B292 /* LaunchScreen.storyboard */,
 				22FF3BD81F2599D200B5B292 /* Info.plist */,
@@ -289,6 +292,7 @@
 				22FF3BCC1F2599D200B5B292 /* ViewController.swift in Sources */,
 				22FF3BFB1F25C45700B5B292 /* DictionaryViewController.swift in Sources */,
 				22FF3BCA1F2599D200B5B292 /* AppDelegate.swift in Sources */,
+				22FF3C041F26EB6100B5B292 /* EnglishToMorse.swift in Sources */,
 				22FF3BFF1F25D19F00B5B292 /* AudioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
