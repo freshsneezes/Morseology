@@ -59,7 +59,8 @@ class AudioViewController: UIViewController{
         }
     }
     
-    Beeping out the Morse
+    // Beeping out the Morse
+    /*
     func morseBeeps() {
         for character in morseTextField.text {
             if character == "." {
@@ -73,5 +74,5 @@ class AudioViewController: UIViewController{
             }
         }
     }
-    
+    */
 }

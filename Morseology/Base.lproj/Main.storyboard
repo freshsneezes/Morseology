@@ -311,11 +311,8 @@ Z
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vBa-Mg-OCv" userLabel="Ciphertext">
-                                <rect key="frame" x="21" y="207" width="278" height="128"/>
+                                <rect key="frame" x="21" y="207" width="278" height="315"/>
                                 <color key="backgroundColor" red="0.74851351980000003" green="0.76481652259999999" blue="0.76479578020000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="0Gi-ih-Gsl"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -332,12 +329,11 @@ Z
                             <constraint firstItem="nso-Wj-omM" firstAttribute="leading" secondItem="luO-6Z-dBE" secondAttribute="leadingMargin" id="UY8-i3-FGH"/>
                             <constraint firstItem="fMY-io-CbR" firstAttribute="trailing" secondItem="vBa-Mg-OCv" secondAttribute="trailing" id="Zue-Vp-PyP"/>
                             <constraint firstItem="fMY-io-CbR" firstAttribute="leading" secondItem="vBa-Mg-OCv" secondAttribute="leading" id="eUp-tP-81j"/>
-                            <constraint firstItem="nso-Wj-omM" firstAttribute="top" secondItem="luO-6Z-dBE" secondAttribute="topMargin" constant="20" id="eyc-pb-2pN"/>
                             <constraint firstItem="fMY-io-CbR" firstAttribute="leading" secondItem="luO-6Z-dBE" secondAttribute="leadingMargin" constant="5" id="fXh-Ld-aUh"/>
                             <constraint firstItem="nso-Wj-omM" firstAttribute="centerX" secondItem="fMY-io-CbR" secondAttribute="centerX" id="kfC-r4-g4a"/>
                             <constraint firstItem="pN5-po-mQS" firstAttribute="leading" secondItem="bwO-5g-gzG" secondAttribute="trailing" constant="92" id="kv8-e9-Wm7"/>
-                            <constraint firstItem="nso-Wj-omM" firstAttribute="top" secondItem="luO-6Z-dBE" secondAttribute="topMargin" constant="10" id="oK7-yr-Bsw"/>
                             <constraint firstItem="fMY-io-CbR" firstAttribute="top" secondItem="nso-Wj-omM" secondAttribute="bottom" constant="16" id="tTf-aB-lzN"/>
+                            <constraint firstItem="pN5-po-mQS" firstAttribute="top" secondItem="vBa-Mg-OCv" secondAttribute="bottom" constant="8" id="tu6-Cz-6rJ"/>
                             <constraint firstItem="vBa-Mg-OCv" firstAttribute="top" secondItem="fMY-io-CbR" secondAttribute="bottom" constant="8" symbolic="YES" id="v6y-qS-mXp"/>
                             <constraint firstItem="nso-Wj-omM" firstAttribute="top" secondItem="luO-6Z-dBE" secondAttribute="topMargin" constant="30" id="wT8-lM-4EG"/>
                         </constraints>
