@@ -66,7 +66,7 @@ class ViewController: UIViewController, UITextViewDelegate {
                 if let ciphertextCharacter = englishToMorse[character] {
                     ciphertext += ciphertextCharacter
                 } else {
-                    ciphertext += "[Unavailable character]"
+                    ciphertext += "..--.. "
                 }
             }
         }
