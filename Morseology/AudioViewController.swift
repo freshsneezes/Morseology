@@ -18,7 +18,8 @@ class AudioViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
+
+    //Linking to audio files
     @IBOutlet weak var AudioController: UIView!
     func play(for resource: String, type: String) {
         guard let path = Bundle.main.path(forResource: resource, ofType: "wav") else {return}
@@ -35,7 +36,7 @@ class AudioViewController: UIViewController{
     
     //Making the beep
     func playShortBeep(){
-        let path = Bundle.main.path(forResource: "beep", ofType:"wav")!
+        let path = Bundle.main.path(forResource: "short beep", ofType:"mp3")!
         let url = URL(fileURLWithPath: path)
         
         do {
@@ -44,6 +45,7 @@ class AudioViewController: UIViewController{
             sound.numberOfLoops = 1
             sound.prepareToPlay()
             sound.play()
+            print ("short beep")
         } catch {
             print("error loading file")
             // couldn't load file :(
@@ -51,7 +53,7 @@ class AudioViewController: UIViewController{
     }
     
     func playLongBeep(){
-        let path = Bundle.main.path(forResource: "Longer beep", ofType:"wav")!
+        let path = Bundle.main.path(forResource: "longer beep", ofType:"mp3")!
         let url = URL(fileURLWithPath: path)
         
         do {
@@ -60,6 +62,24 @@ class AudioViewController: UIViewController{
             sound.numberOfLoops = 1
             sound.prepareToPlay()
             sound.play()
+            print ("long beep")
+        } catch {
+            print("error loading file")
+            // couldn't load file :(
+        }
+    }
+    
+    func playPause(){
+        let path = Bundle.main.path(forResource: "space", ofType:"mp3")!
+        let url = URL(fileURLWithPath: path)
+        
+        do {
+            let sound = try AVAudioPlayer(contentsOf: url)
+            self.player = sound
+            sound.numberOfLoops = 1
+            sound.prepareToPlay()
+            sound.play()
+            print ("pause")
         } catch {
             print("error loading file")
             // couldn't load file :(
@@ -69,15 +89,18 @@ class AudioViewController: UIViewController{
     // Beeping out the Morse
     
     @IBAction func BLEEP(_ sender: Any) {
+        
         if let morseTextField = homeScreenViewController.MorseTextField.text?.uppercased() {
             for character in morseTextField.characters {
                 if character == "." {
                     playShortBeep()
+                    playPause()
+                } else if character == "-" {
+                    playLongBeep()
+                    playPause()
                 } else {
-                    if character == "-" {
-                        playLongBeep()
-                    } else {
-                        //leave a gap
+                    for _ in 0..<3 {
+                        playPause()
                     }
                 }
             }
