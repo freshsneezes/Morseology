@@ -10,11 +10,18 @@ import Foundation
 import UIKit
 import AVFoundation
 
-class TorchViewController: UIViewController{
+class TorchViewController: UIViewController {
+    
+    //Access other class
+    var homeScreenViewController: ViewController!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
     
     @IBOutlet weak var lightItUp: UIButton!
     
-    //To switch torch on
+    //Toggle torch
     func torchOn(on: Bool) {
         guard let device = AVCaptureDevice.defaultDevice(withMediaType: AVMediaTypeVideo) else { return }
         
@@ -38,6 +45,24 @@ class TorchViewController: UIViewController{
         }
     }
     
-    //To call torch function: torchOn(on: true)
+    //To switch torch on
+    @IBAction func LightItUp(_ sender: Any) {
+        
+        if let morseTextField = homeScreenViewController.MorseTextField.text?.uppercased() {
+            for character in morseTextField.characters {
+                if character == "." {
+                    torchOn(on: true)
+                    print  ("short")
+                } else if character == "-" {
+                    torchOn(on: true)
+                    print ("long")
+                } else {
+                    torchOn(on: false)
+                    print ("pause")
+                }
+                torchOn(on: false)
+            }
+        }
+    }
     
 }
