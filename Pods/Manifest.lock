@@ -1,0 +1,12 @@
+PODS:
+  - SwiftySound (0.5.0)
+
+DEPENDENCIES:
+  - SwiftySound
+
+SPEC CHECKSUMS:
+  SwiftySound: d51debf52d8a7251eb9517beaa7f797cb73ad330
+
+PODFILE CHECKSUM: a5e9841d97ac7f2dabb478d9c09986be9977b54b
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,6 @@
+framework module Pods_MorseologyUITests {
+  umbrella header "Pods-MorseologyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

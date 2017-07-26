@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 import AVFoundation
+import SwiftySound
 
 class AudioViewController: UIViewController{
     
@@ -32,11 +33,13 @@ class AudioViewController: UIViewController{
             assert(false, error.localizedDescription)
         }
     }
+    
+    /*
     var player : AVAudioPlayer?
     
     //Making the beep
     func playShortBeep(){
-        let path = Bundle.main.path(forResource: "short beep", ofType:"mp3")!
+        let path = Bundle.main.path(forResource: "shortBeep", ofType:"mp3")!
         let url = URL(fileURLWithPath: path)
         
         do {
@@ -51,9 +54,9 @@ class AudioViewController: UIViewController{
             // couldn't load file :(
         }
     }
-    
+    //Making the beep
     func playLongBeep(){
-        let path = Bundle.main.path(forResource: "longer beep", ofType:"mp3")!
+        let path = Bundle.main.path(forResource: "longerBeep", ofType:"mp3")!
         let url = URL(fileURLWithPath: path)
         
         do {
@@ -85,6 +88,8 @@ class AudioViewController: UIViewController{
             // couldn't load file :(
         }
     }
+ 
+ */
     
     // Beeping out the Morse
     
@@ -93,19 +98,22 @@ class AudioViewController: UIViewController{
         if let morseTextField = homeScreenViewController.MorseTextField.text?.uppercased() {
             for character in morseTextField.characters {
                 if character == "." {
-                    playShortBeep()
-                    playPause()
+//                    playShortBeep()
+//                    playPause()
+                    Sound.play(file: "longerBeep.mp3")
+                    Sound.play(file: "space.mp3")
                 } else if character == "-" {
-                    playLongBeep()
-                    playPause()
+//                    playLongBeep()
+//                    playPause()
+                    Sound.play(file: "shortBeep.mp3")
+                    Sound.play(file: "space.mp3")
                 } else {
                     for _ in 0..<3 {
-                        playPause()
+//                        playPause()
+                        Sound.play(file: "space.mp3")
                     }
                 }
             }
         }
     }
-    
-    
 }

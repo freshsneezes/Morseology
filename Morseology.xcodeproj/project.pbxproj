@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2273B9D51F283F6600C201D9 /* longer beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2273B9D21F283F6600C201D9 /* longer beep.mp3 */; };
-		2273B9D61F283F6600C201D9 /* short beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2273B9D31F283F6600C201D9 /* short beep.mp3 */; };
-		2273B9D71F283F6600C201D9 /* space.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2273B9D41F283F6600C201D9 /* space.mp3 */; };
 		22FF3BCA1F2599D200B5B292 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BC91F2599D200B5B292 /* AppDelegate.swift */; };
 		22FF3BCC1F2599D200B5B292 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BCB1F2599D200B5B292 /* ViewController.swift */; };
 		22FF3BCF1F2599D200B5B292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FF3BCD1F2599D200B5B292 /* Main.storyboard */; };
@@ -22,6 +19,12 @@
 		22FF3BFD1F25D18800B5B292 /* TorchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BFC1F25D18800B5B292 /* TorchViewController.swift */; };
 		22FF3BFF1F25D19F00B5B292 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BFE1F25D19F00B5B292 /* AudioViewController.swift */; };
 		22FF3C041F26EB6100B5B292 /* EnglishToMorse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3C031F26EB6100B5B292 /* EnglishToMorse.swift */; };
+		2462582AECE514DD86DC25F2 /* Pods_MorseologyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E9644D7CD4A95B6709FF826 /* Pods_MorseologyTests.framework */; };
+		735693E9E15C73EB65B350B9 /* Pods_Morseology.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1F92B198DD523E425AE1E4 /* Pods_Morseology.framework */; };
+		87857BE3C48714F2AF97D7FB /* Pods_MorseologyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53C257FE79398FD0200445B /* Pods_MorseologyUITests.framework */; };
+		DD9D1C741F284C1C00EA914C /* longerBeep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD9D1C731F284C1C00EA914C /* longerBeep.mp3 */; };
+		DD9D1C761F284C2900EA914C /* shortBeep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD9D1C751F284C2900EA914C /* shortBeep.mp3 */; };
+		DD9D1C781F284C3A00EA914C /* space.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD9D1C771F284C3A00EA914C /* space.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2273B9D21F283F6600C201D9 /* longer beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "longer beep.mp3"; path = "../Sounds/longer beep.mp3"; sourceTree = "<group>"; };
-		2273B9D31F283F6600C201D9 /* short beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "short beep.mp3"; path = "../Sounds/short beep.mp3"; sourceTree = "<group>"; };
-		2273B9D41F283F6600C201D9 /* space.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = space.mp3; path = ../Sounds/space.mp3; sourceTree = "<group>"; };
+		1AD0E1606F9E2C6AF7DB1E92 /* Pods-MorseologyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorseologyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MorseologyUITests/Pods-MorseologyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C3AC880FAF209BAB42B2EB7 /* Pods-Morseology.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Morseology.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Morseology/Pods-Morseology.debug.xcconfig"; sourceTree = "<group>"; };
+		1E9644D7CD4A95B6709FF826 /* Pods_MorseologyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MorseologyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FF3BC61F2599D200B5B292 /* Morseology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Morseology.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FF3BC91F2599D200B5B292 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22FF3BCB1F2599D200B5B292 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +66,15 @@
 		22FF3BFC1F25D18800B5B292 /* TorchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TorchViewController.swift; sourceTree = "<group>"; };
 		22FF3BFE1F25D19F00B5B292 /* AudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
 		22FF3C031F26EB6100B5B292 /* EnglishToMorse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnglishToMorse.swift; sourceTree = "<group>"; };
+		7793C8E54FBD0ADC0023C590 /* Pods-Morseology.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Morseology.release.xcconfig"; path = "Pods/Target Support Files/Pods-Morseology/Pods-Morseology.release.xcconfig"; sourceTree = "<group>"; };
+		9E055065A54BA567835198D3 /* Pods-MorseologyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorseologyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MorseologyUITests/Pods-MorseologyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BD1F92B198DD523E425AE1E4 /* Pods_Morseology.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Morseology.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49134219B5D6C314ED050C5 /* Pods-MorseologyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorseologyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MorseologyTests/Pods-MorseologyTests.release.xcconfig"; sourceTree = "<group>"; };
+		D53AE88F188035552A1B1CDC /* Pods-MorseologyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorseologyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MorseologyTests/Pods-MorseologyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD9D1C731F284C1C00EA914C /* longerBeep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = longerBeep.mp3; sourceTree = "<group>"; };
+		DD9D1C751F284C2900EA914C /* shortBeep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shortBeep.mp3; sourceTree = "<group>"; };
+		DD9D1C771F284C3A00EA914C /* space.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = space.mp3; sourceTree = "<group>"; };
+		E53C257FE79398FD0200445B /* Pods_MorseologyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MorseologyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				735693E9E15C73EB65B350B9 /* Pods_Morseology.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2462582AECE514DD86DC25F2 /* Pods_MorseologyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87857BE3C48714F2AF97D7FB /* Pods_MorseologyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +112,8 @@
 				22FF3BE01F2599D200B5B292 /* MorseologyTests */,
 				22FF3BEB1F2599D200B5B292 /* MorseologyUITests */,
 				22FF3BC71F2599D200B5B292 /* Products */,
-				22FF3C021F26E3FA00B5B292 /* Sounds */,
+				EA1709B5B2C56822AFE1F622 /* Pods */,
+				2C48DA54337344291A3488D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,10 +130,11 @@
 		22FF3BC81F2599D200B5B292 /* Morseology */ = {
 			isa = PBXGroup;
 			children = (
+				DD9D1C721F284BEC00EA914C /* Sounds */,
 				22FF3BC91F2599D200B5B292 /* AppDelegate.swift */,
 				22FF3BCB1F2599D200B5B292 /* ViewController.swift */,
-				22FF3BFA1F25C45700B5B292 /* DictionaryViewController.swift */,
 				22FF3BFC1F25D18800B5B292 /* TorchViewController.swift */,
+				22FF3BFA1F25C45700B5B292 /* DictionaryViewController.swift */,
 				22FF3BFE1F25D19F00B5B292 /* AudioViewController.swift */,
 				22FF3BCD1F2599D200B5B292 /* Main.storyboard */,
 				22FF3C031F26EB6100B5B292 /* EnglishToMorse.swift */,
@@ -147,15 +164,37 @@
 			path = MorseologyUITests;
 			sourceTree = "<group>";
 		};
-		22FF3C021F26E3FA00B5B292 /* Sounds */ = {
+		2C48DA54337344291A3488D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2273B9D21F283F6600C201D9 /* longer beep.mp3 */,
-				2273B9D31F283F6600C201D9 /* short beep.mp3 */,
-				2273B9D41F283F6600C201D9 /* space.mp3 */,
+				BD1F92B198DD523E425AE1E4 /* Pods_Morseology.framework */,
+				1E9644D7CD4A95B6709FF826 /* Pods_MorseologyTests.framework */,
+				E53C257FE79398FD0200445B /* Pods_MorseologyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD9D1C721F284BEC00EA914C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DD9D1C731F284C1C00EA914C /* longerBeep.mp3 */,
+				DD9D1C771F284C3A00EA914C /* space.mp3 */,
+				DD9D1C751F284C2900EA914C /* shortBeep.mp3 */,
 			);
 			name = Sounds;
-			path = Morseology;
+			sourceTree = "<group>";
+		};
+		EA1709B5B2C56822AFE1F622 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C3AC880FAF209BAB42B2EB7 /* Pods-Morseology.debug.xcconfig */,
+				7793C8E54FBD0ADC0023C590 /* Pods-Morseology.release.xcconfig */,
+				D53AE88F188035552A1B1CDC /* Pods-MorseologyTests.debug.xcconfig */,
+				D49134219B5D6C314ED050C5 /* Pods-MorseologyTests.release.xcconfig */,
+				1AD0E1606F9E2C6AF7DB1E92 /* Pods-MorseologyUITests.debug.xcconfig */,
+				9E055065A54BA567835198D3 /* Pods-MorseologyUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22FF3BF11F2599D200B5B292 /* Build configuration list for PBXNativeTarget "Morseology" */;
 			buildPhases = (
+				576C0FF02120364838DA2042 /* [CP] Check Pods Manifest.lock */,
 				22FF3BC21F2599D200B5B292 /* Sources */,
 				22FF3BC31F2599D200B5B292 /* Frameworks */,
 				22FF3BC41F2599D200B5B292 /* Resources */,
+				9C4EEF027FC420E8A6E02404 /* [CP] Embed Pods Frameworks */,
+				91B5001D397700CFE592E931 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22FF3BF41F2599D200B5B292 /* Build configuration list for PBXNativeTarget "MorseologyTests" */;
 			buildPhases = (
+				F24ECE6EA4E784BF34E77952 /* [CP] Check Pods Manifest.lock */,
 				22FF3BD91F2599D200B5B292 /* Sources */,
 				22FF3BDA1F2599D200B5B292 /* Frameworks */,
 				22FF3BDB1F2599D200B5B292 /* Resources */,
+				0876148C6A3785BC936AD086 /* [CP] Embed Pods Frameworks */,
+				6B0D4558E0D7B7FB825BA0D9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22FF3BF71F2599D200B5B292 /* Build configuration list for PBXNativeTarget "MorseologyUITests" */;
 			buildPhases = (
+				8FF409EBD33A093E64F02D9F /* [CP] Check Pods Manifest.lock */,
 				22FF3BE41F2599D200B5B292 /* Sources */,
 				22FF3BE51F2599D200B5B292 /* Frameworks */,
 				22FF3BE61F2599D200B5B292 /* Resources */,
+				C2771A9AC3071DAA71B5C5BA /* [CP] Embed Pods Frameworks */,
+				CAED05D7ACCF26C788E01829 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,12 +313,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2273B9D51F283F6600C201D9 /* longer beep.mp3 in Resources */,
-				2273B9D71F283F6600C201D9 /* space.mp3 in Resources */,
 				22FF3BD71F2599D200B5B292 /* LaunchScreen.storyboard in Resources */,
+				DD9D1C781F284C3A00EA914C /* space.mp3 in Resources */,
 				22FF3BD41F2599D200B5B292 /* Assets.xcassets in Resources */,
-				2273B9D61F283F6600C201D9 /* short beep.mp3 in Resources */,
 				22FF3BCF1F2599D200B5B292 /* Main.storyboard in Resources */,
+				DD9D1C761F284C2900EA914C /* shortBeep.mp3 in Resources */,
+				DD9D1C741F284C1C00EA914C /* longerBeep.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +337,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0876148C6A3785BC936AD086 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MorseologyTests/Pods-MorseologyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		576C0FF02120364838DA2042 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B0D4558E0D7B7FB825BA0D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MorseologyTests/Pods-MorseologyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FF409EBD33A093E64F02D9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		91B5001D397700CFE592E931 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Morseology/Pods-Morseology-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C4EEF027FC420E8A6E02404 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Morseology/Pods-Morseology-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2771A9AC3071DAA71B5C5BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MorseologyUITests/Pods-MorseologyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAED05D7ACCF26C788E01829 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MorseologyUITests/Pods-MorseologyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F24ECE6EA4E784BF34E77952 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		22FF3BC21F2599D200B5B292 /* Sources */ = {
@@ -453,6 +639,7 @@
 		};
 		22FF3BF21F2599D200B5B292 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C3AC880FAF209BAB42B2EB7 /* Pods-Morseology.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Morseology/Info.plist;
@@ -466,6 +653,7 @@
 		};
 		22FF3BF31F2599D200B5B292 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7793C8E54FBD0ADC0023C590 /* Pods-Morseology.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Morseology/Info.plist;
@@ -479,6 +667,7 @@
 		};
 		22FF3BF51F2599D200B5B292 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D53AE88F188035552A1B1CDC /* Pods-MorseologyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +682,7 @@
 		};
 		22FF3BF61F2599D200B5B292 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D49134219B5D6C314ED050C5 /* Pods-MorseologyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +697,7 @@
 		};
 		22FF3BF81F2599D200B5B292 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AD0E1606F9E2C6AF7DB1E92 /* Pods-MorseologyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = MorseologyUITests/Info.plist;
@@ -520,6 +711,7 @@
 		};
 		22FF3BF91F2599D200B5B292 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E055065A54BA567835198D3 /* Pods-MorseologyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = MorseologyUITests/Info.plist;
