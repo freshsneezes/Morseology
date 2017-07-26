@@ -45,7 +45,10 @@ class ViewController: UIViewController, UITextViewDelegate {
                     //Audio
                     if identifier == "displayAudio" {
                         print ("Going to audio")
-                        let audioViewController = segue.destination as! AudioViewController
+                        let soundViewController = segue.destination as! AudioViewController
+                        
+                        //Testing some stuff
+                        soundViewController.homeScreenViewController = self
                     }
                 }
             }
@@ -57,6 +60,7 @@ class ViewController: UIViewController, UITextViewDelegate {
     @IBOutlet weak var EnglishTextField: UITextView!
     @IBOutlet weak var MorseTextField: UITextView!
     
+    //Translating Eng --> Morse
     func textViewDidChange(_ textView: UITextView) {
         var ciphertextCharacter: String = ""
         var ciphertext: String = ""
@@ -74,9 +78,6 @@ class ViewController: UIViewController, UITextViewDelegate {
         //Setting Morse text field to new ciphertext
         MorseTextField.text = ciphertext
     }
-    
-    //Translating Eng --> Morse
-
 
 }
 

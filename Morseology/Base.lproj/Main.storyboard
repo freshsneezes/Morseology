@@ -25,6 +25,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3yj-5B-ij0">
                                 <rect key="frame" x="137.5" y="518" width="45" height="30"/>
                                 <state key="normal" title="BLEEP"/>
+                                <connections>
+                                    <action selector="BLEEP:" destination="SyI-oU-BQU" eventType="touchUpInside" id="kby-fc-XU7"/>
+                                </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="pgc-x0-hgy">
                                 <rect key="frame" x="215.5" y="518" width="90.5" height="31"/>

@@ -12,6 +12,13 @@ import AVFoundation
 
 class AudioViewController: UIViewController{
     
+    //Trying to access other class
+    var homeScreenViewController: ViewController!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
     @IBOutlet weak var AudioController: UIView!
     func play(for resource: String, type: String) {
         guard let path = Bundle.main.path(forResource: resource, ofType: "wav") else {return}
@@ -44,7 +51,7 @@ class AudioViewController: UIViewController{
     }
     
     func playLongBeep(){
-        let path = Bundle.main.path(forResource: "Long beep", ofType:"wav")!
+        let path = Bundle.main.path(forResource: "Longer beep", ofType:"wav")!
         let url = URL(fileURLWithPath: path)
         
         do {
@@ -60,19 +67,22 @@ class AudioViewController: UIViewController{
     }
     
     // Beeping out the Morse
-    /*
-    func morseBeeps() {
-        for character in morseTextField.text {
-            if character == "." {
-                playShortBeep()
-            } else {
-                if character == "-" {
-                    playLongBeep()
+    
+    @IBAction func BLEEP(_ sender: Any) {
+        if let morseTextField = homeScreenViewController.MorseTextField.text?.uppercased() {
+            for character in morseTextField.characters {
+                if character == "." {
+                    playShortBeep()
                 } else {
-                    //leave a gap
+                    if character == "-" {
+                        playLongBeep()
+                    } else {
+                        //leave a gap
+                    }
                 }
             }
         }
     }
-    */
+    
+    
 }
