@@ -384,7 +384,7 @@ Z
                                     <segue destination="0te-4d-w0Y" kind="unwind" unwindAction="unwindViewController:" id="YDW-PM-9a9"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zne-wz-4hv">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zne-wz-4hv">
                                 <rect key="frame" x="32" y="518" width="122" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="122" id="q0k-JR-Veh"/>
@@ -398,8 +398,8 @@ Z
                             <constraint firstItem="zne-wz-4hv" firstAttribute="top" secondItem="SpL-Je-Lu1" secondAttribute="top" id="LxK-9J-11H"/>
                             <constraint firstItem="VRf-GC-IED" firstAttribute="leading" secondItem="TZa-Ba-Q0t" secondAttribute="leadingMargin" id="VKV-Fy-voc"/>
                             <constraint firstItem="VRf-GC-IED" firstAttribute="trailing" secondItem="SpL-Je-Lu1" secondAttribute="trailing" id="bYc-dL-eJT"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="zne-wz-4hv" secondAttribute="trailing" constant="50" id="mal-kv-7Jr"/>
-                            <constraint firstItem="VRf-GC-IED" firstAttribute="centerX" secondItem="zne-wz-4hv" secondAttribute="centerX" id="nIf-cK-2Us"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zne-wz-4hv" secondAttribute="trailing" constant="150" id="mal-kv-7Jr"/>
+                            <constraint firstItem="VRf-GC-IED" firstAttribute="centerX" secondItem="zne-wz-4hv" secondAttribute="centerX" constant="67" id="nIf-cK-2Us"/>
                             <constraint firstAttribute="bottom" secondItem="zne-wz-4hv" secondAttribute="bottom" constant="20" symbolic="YES" id="pe8-bB-rbh"/>
                             <constraint firstItem="VRf-GC-IED" firstAttribute="top" secondItem="2KG-1D-sf7" secondAttribute="bottom" id="xaN-IP-rob"/>
                         </constraints>
