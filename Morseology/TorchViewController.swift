@@ -11,7 +11,79 @@ import UIKit
 import AVFoundation
 
 class TorchViewController: UIViewController {
+    var homeScreenViewController: ViewController!
     
+    @IBAction func lightButton(_ sender: Any) {
+        if let morseParagraph = homeScreenViewController.MorseTextField.text?.uppercased() {
+            flash(forMorseCode: morseParagraph)
+        }
+    }
+    
+    //Xander's stuff
+    func flash(forMorseCode code: String) {
+        // Start recursive function at index 0
+        flashForValue(atIndex: 0, ofInput: code)
+    }
+    
+    private func flashForValue(atIndex index: Int, ofInput input: String) {
+        // Stop condition for recursive function
+        if index >= input.characters.count {
+            return
+        }
+        
+        // Convert integer index to string.index :unamused: should use arrays instead of strings
+        let charIndex = input.index(input.startIndex, offsetBy: index)
+        let inputChar = input.characters[charIndex]
+        
+        if inputChar != " " {
+            // Is not a space so turn light on
+            toggleFlash()
+        }
+        if inputChar == "." {
+            // is dot, turn flash off after one second
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1, execute: {
+                self.toggleFlash()
+                // Advance to next character in input
+                self.flashForValue(atIndex: index + 1, ofInput: input)
+            })
+        } else if inputChar == "-" {
+            // is dash, turn flash off after 3 seconds
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3, execute: {
+                self.toggleFlash()
+                // Advance to next character in input
+                self.flashForValue(atIndex: index + 1, ofInput: input)
+            })
+        } else {
+            // is something other than dash or dot, wait one second before advancing
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2, execute: {
+                self.flashForValue(atIndex: index + 1, ofInput: input)
+            })
+        }
+    }
+    
+    // Turns flash on if currently off or turns flash off if currently on
+    private func toggleFlash() {
+        guard let device = AVCaptureDevice.defaultDevice(withMediaType: AVMediaTypeVideo) else { return }
+        if (device.hasTorch) {
+            do {
+                try device.lockForConfiguration()
+                if (device.torchMode == AVCaptureTorchMode.on) {
+                    device.torchMode = AVCaptureTorchMode.off
+                } else {
+                    do {
+                        try device.setTorchModeOnWithLevel(1.0)
+                    } catch {
+                        print(error)
+                    }
+                }
+                device.unlockForConfiguration()
+            } catch {
+                print(error)
+            }
+        }
+    }
+    
+    /* Our stuff
     //Access other class
     var homeScreenViewController: ViewController!
     
@@ -64,5 +136,5 @@ class TorchViewController: UIViewController {
             }
         }
     }
-    
+    */
 }

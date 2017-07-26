@@ -392,6 +392,7 @@ Z
                                 <state key="normal" title="LIGHT IT UP"/>
                                 <connections>
                                     <action selector="LightItUp:" destination="3Xz-fh-VSd" eventType="touchUpInside" id="Olo-p4-yur"/>
+                                    <action selector="lightButton:" destination="3Xz-fh-VSd" eventType="touchUpInside" id="owq-IQ-VzZ"/>
                                 </connections>
                             </button>
                         </subviews>
