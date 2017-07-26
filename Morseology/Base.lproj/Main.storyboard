@@ -390,6 +390,9 @@ Z
                                     <constraint firstAttribute="width" constant="122" id="q0k-JR-Veh"/>
                                 </constraints>
                                 <state key="normal" title="LIGHT IT UP"/>
+                                <connections>
+                                    <action selector="LightItUp:" destination="3Xz-fh-VSd" eventType="touchUpInside" id="Olo-p4-yur"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

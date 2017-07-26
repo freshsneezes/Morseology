@@ -101,16 +101,21 @@ class AudioViewController: UIViewController{
 //                    playShortBeep()
 //                    playPause()
                     Sound.play(file: "longerBeep.mp3")
+                    print ("long")
                     Sound.play(file: "space.mp3")
+                    print ("space")
                 } else if character == "-" {
 //                    playLongBeep()
 //                    playPause()
                     Sound.play(file: "shortBeep.mp3")
+                    print ("short")
                     Sound.play(file: "space.mp3")
+                    print ("space")
                 } else {
                     for _ in 0..<3 {
 //                        playPause()
                         Sound.play(file: "space.mp3")
+                        print ("pause")
                     }
                 }
             }
