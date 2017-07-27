@@ -23,7 +23,7 @@ class AudioViewController: UIViewController{
     //Linking to audio files
     @IBOutlet weak var AudioController: UIView!
     func play(for resource: String, type: String) {
-        guard let path = Bundle.main.path(forResource: resource, ofType: "wav") else {return}
+        guard let path = Bundle.main.path(forResource: resource, ofType: "mp3") else {return}
         let sound = URL(fileURLWithPath: path)
         do {
             let audioPlayer = try AVAudioPlayer(contentsOf: sound)
