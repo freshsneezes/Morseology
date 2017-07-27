@@ -19,7 +19,7 @@ class AudioViewController: UIViewController, AVAudioPlayerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        AudioGif.loadGif(name: "animated-sound-waves")
+        AudioGif.loadGif(name: "animatedSoundWaves")
     }
 
 

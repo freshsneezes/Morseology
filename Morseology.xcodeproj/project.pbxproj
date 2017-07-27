@@ -26,7 +26,7 @@
 		DD9D1C761F284C2900EA914C /* shortBeep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD9D1C751F284C2900EA914C /* shortBeep.mp3 */; };
 		DD9D1C781F284C3A00EA914C /* space.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD9D1C771F284C3A00EA914C /* space.mp3 */; };
 		DD9D1C7C1F29DAA000EA914C /* Audio+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9D1C7B1F29DAA000EA914C /* Audio+Gif.swift */; };
-		DD9D1C7E1F29DD6B00EA914C /* animated-sound-waves.gif in Resources */ = {isa = PBXBuildFile; fileRef = DD9D1C7D1F29DD6B00EA914C /* animated-sound-waves.gif */; };
+		DD9D1C801F29DFE500EA914C /* animatedSoundWaves.gif in Resources */ = {isa = PBXBuildFile; fileRef = DD9D1C7F1F29DFE500EA914C /* animatedSoundWaves.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,7 +77,7 @@
 		DD9D1C751F284C2900EA914C /* shortBeep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shortBeep.mp3; sourceTree = "<group>"; };
 		DD9D1C771F284C3A00EA914C /* space.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = space.mp3; sourceTree = "<group>"; };
 		DD9D1C7B1F29DAA000EA914C /* Audio+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Audio+Gif.swift"; sourceTree = "<group>"; };
-		DD9D1C7D1F29DD6B00EA914C /* animated-sound-waves.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "animated-sound-waves.gif"; sourceTree = "<group>"; };
+		DD9D1C7F1F29DFE500EA914C /* animatedSoundWaves.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animatedSoundWaves.gif; sourceTree = "<group>"; };
 		E53C257FE79398FD0200445B /* Pods_MorseologyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MorseologyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -140,8 +140,8 @@
 				22FF3BFC1F25D18800B5B292 /* TorchViewController.swift */,
 				22FF3BFA1F25C45700B5B292 /* DictionaryViewController.swift */,
 				22FF3BFE1F25D19F00B5B292 /* AudioViewController.swift */,
-				DD9D1C7D1F29DD6B00EA914C /* animated-sound-waves.gif */,
 				22FF3BCD1F2599D200B5B292 /* Main.storyboard */,
+				DD9D1C7F1F29DFE500EA914C /* animatedSoundWaves.gif */,
 				DD9D1C7B1F29DAA000EA914C /* Audio+Gif.swift */,
 				22FF3C031F26EB6100B5B292 /* EnglishToMorse.swift */,
 				22FF3BD31F2599D200B5B292 /* Assets.xcassets */,
@@ -320,7 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22FF3BD71F2599D200B5B292 /* LaunchScreen.storyboard in Resources */,
-				DD9D1C7E1F29DD6B00EA914C /* animated-sound-waves.gif in Resources */,
+				DD9D1C801F29DFE500EA914C /* animatedSoundWaves.gif in Resources */,
 				DD9D1C781F284C3A00EA914C /* space.mp3 in Resources */,
 				22FF3BD41F2599D200B5B292 /* Assets.xcassets in Resources */,
 				22FF3BCF1F2599D200B5B292 /* Main.storyboard in Resources */,
