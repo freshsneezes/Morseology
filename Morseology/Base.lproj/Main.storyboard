@@ -43,20 +43,24 @@
                                     <segue destination="YUf-6G-tEG" kind="unwind" unwindAction="unwindViewController:" id="oXN-b3-Bfb"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uXa-ky-46t">
-                                <rect key="frame" x="40" y="220" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uXa-ky-46t">
+                                <rect key="frame" x="21" y="60" width="278" height="453"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.49411764705882355" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.58823529411764708" green="0.74117647058823533" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="vac-g9-NWl" firstAttribute="leading" secondItem="N5C-Jg-xf3" secondAttribute="leadingMargin" id="41Q-vX-N85"/>
                             <constraint firstItem="vac-g9-NWl" firstAttribute="top" secondItem="hL9-BF-QmE" secondAttribute="bottom" id="6d1-k0-ktk"/>
                             <constraint firstItem="3yj-5B-ij0" firstAttribute="top" secondItem="pgc-x0-hgy" secondAttribute="top" id="BVZ-Hq-AOg"/>
+                            <constraint firstItem="uXa-ky-46t" firstAttribute="top" secondItem="vac-g9-NWl" secondAttribute="bottom" constant="5" id="Byn-7Y-oaZ"/>
                             <constraint firstItem="vac-g9-NWl" firstAttribute="centerX" secondItem="3yj-5B-ij0" secondAttribute="centerX" id="Ghg-It-dd6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uXa-ky-46t" secondAttribute="trailing" constant="5" id="HDY-DD-tcb"/>
                             <constraint firstAttribute="bottom" secondItem="3yj-5B-ij0" secondAttribute="bottom" constant="20" symbolic="YES" id="W9C-Hh-m1g"/>
                             <constraint firstItem="vac-g9-NWl" firstAttribute="trailing" secondItem="N5C-Jg-xf3" secondAttribute="trailingMargin" id="aHT-Cd-3bO"/>
+                            <constraint firstItem="uXa-ky-46t" firstAttribute="leading" secondItem="N5C-Jg-xf3" secondAttribute="leadingMargin" constant="5" id="ipz-P3-mbf"/>
                             <constraint firstItem="pgc-x0-hgy" firstAttribute="leading" secondItem="3yj-5B-ij0" secondAttribute="trailing" constant="35" id="l4q-9o-alR"/>
+                            <constraint firstItem="pgc-x0-hgy" firstAttribute="top" secondItem="uXa-ky-46t" secondAttribute="bottom" constant="5" id="nZN-d4-aaU"/>
                             <constraint firstItem="vac-g9-NWl" firstAttribute="trailing" secondItem="pgc-x0-hgy" secondAttribute="trailing" id="won-UA-NHR"/>
                         </constraints>
                     </view>
@@ -324,7 +328,7 @@ Z
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.49385023119999999" green="0.50202494860000002" blue="0.50198948379999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.49411764705882355" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.59012794489999998" green="0.74012762310000002" blue="0.99754649399999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="zG0-rZ-9ck" firstAttribute="top" secondItem="pN5-po-mQS" secondAttribute="bottom" constant="5" id="0d9-u0-ufg"/>
@@ -379,7 +383,7 @@ Z
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VRf-GC-IED">
                                 <rect key="frame" x="16" y="20" width="288" height="35"/>
-                                <color key="backgroundColor" red="0.59012794489999998" green="0.74012762310000002" blue="0.99754649399999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.58823529411764708" green="0.74117647058823533" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="17"/>
                                 <state key="normal" title="MORSEOLOGY">
                                     <color key="titleColor" red="0.49385023119999999" green="0.50202494860000002" blue="0.50198948379999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -399,7 +403,8 @@ Z
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.49411764705882355" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.58823529411764708" green="0.74117647058823533" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="VRf-GC-IED" firstAttribute="trailing" secondItem="TZa-Ba-Q0t" secondAttribute="trailingMargin" id="Il7-v4-Yxb"/>
                             <constraint firstItem="zne-wz-4hv" firstAttribute="top" secondItem="SpL-Je-Lu1" secondAttribute="top" id="LxK-9J-11H"/>
