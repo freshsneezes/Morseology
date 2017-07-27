@@ -34,6 +34,15 @@ class AudioViewController: UIViewController{
         }
     }
     
+    //Trying something out
+    private func toggleSound() {
+        guard let device = AVAudioPlayer(withMediaType: AVMediaTypeAudio) else {return}
+        do {
+            try device.lockForConfiguration()
+            
+        }
+    }
+    
     /*
     var player : AVAudioPlayer?
     
