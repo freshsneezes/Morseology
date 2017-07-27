@@ -125,7 +125,7 @@ class AudioViewController: UIViewController, AVAudioPlayerDelegate {
             })
         } else if inputChar == "-" {
             // is dash, turn flash off after 3 seconds
-            DispatchQueue.main.asyncAfter(deadline: .now() + 3, execute: {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.5, execute: {
                 Sound.stopAll()
                 // Advance to next character in input
                 self.soundForValue(atIndex: index + 1, ofInput: input)
@@ -138,37 +138,7 @@ class AudioViewController: UIViewController, AVAudioPlayerDelegate {
         }
     }
    
-    /*
-    func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
-        if let morseTextField = homeScreenViewController.MorseTextField.text?.uppercased() {
-            for character in morseTextField.characters {
-                if character == "." {
-                    
-                    Sound.play(file: "shortBeep")
-                    print ("short")
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 5, execute: {
-                        Sound.stop(file: "shortBeep.mp3")
-                        print ("stop")
-                    })
-                } else if character == "-" {
-                    Sound.play(file: "longerBeep")
-                    print ("long")
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 15, execute: {
-                        Sound.stopAll()
-                        print ("stop")
-                    })
-                } else {
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 5, execute: {
-                        print ("pause")
-                    })
-                }
-            }
-        }
-    }*/
     
-    // Beeping out the Morse
-    //OH time the pauses not the sounds
-   
     @IBAction func BLEEP(_ sender: Any) {
         soundForValue(atIndex: 0, ofInput: morseCode)
     }
