@@ -56,9 +56,6 @@
                             <constraint firstItem="vac-g9-NWl" firstAttribute="trailing" secondItem="pgc-x0-hgy" secondAttribute="trailing" id="won-UA-NHR"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="AudioController" destination="N5C-Jg-xf3" id="EYk-xu-Tyh"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oYb-WQ-Lvc" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="YUf-6G-tEG" userLabel="Exit" sceneMemberID="exit"/>
@@ -391,8 +388,7 @@ Z
                                 </constraints>
                                 <state key="normal" title="LIGHT IT UP"/>
                                 <connections>
-                                    <action selector="LightItUp:" destination="3Xz-fh-VSd" eventType="touchUpInside" id="Olo-p4-yur"/>
-                                    <action selector="lightButton:" destination="3Xz-fh-VSd" eventType="touchUpInside" id="owq-IQ-VzZ"/>
+                                    <action selector="lightButton:" destination="3Xz-fh-VSd" eventType="touchUpInside" id="WUQ-JR-jJM"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -12,15 +12,12 @@ import AVFoundation
 
 class TorchViewController: UIViewController {
     
-    
-    var homeScreenViewController: ViewController!
+    var morseCode = ""
     
     @IBAction func lightButton(_ sender: Any) {
-        if let morseParagraph = homeScreenViewController.MorseTextField.text?.uppercased() {
-            flash(forMorseCode: morseParagraph)
-        }
+        flash(forMorseCode: morseCode)
     }
-    //Xander's stuff
+    
     func flash(forMorseCode code: String) {
         // Start recursive function at index 0
         flashForValue(atIndex: 0, ofInput: code)

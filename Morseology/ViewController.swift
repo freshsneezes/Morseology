@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController, UITextViewDelegate {
+    
+    var morseCode = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,14 +43,13 @@ class ViewController: UIViewController, UITextViewDelegate {
                 if identifier == "displayTorch" {
                     print ("Going to torch")
                     let torchViewController = segue.destination as! TorchViewController
+                    torchViewController.morseCode = self.morseCode
                 } else {
                     //Audio
                     if identifier == "displayAudio" {
                         print ("Going to audio")
                         let soundViewController = segue.destination as! AudioViewController
-                        
-                        //Testing some stuff
-                        soundViewController.homeScreenViewController = self
+                        soundViewController.morseCode = self.morseCode
                     }
                 }
             }
@@ -77,6 +78,7 @@ class ViewController: UIViewController, UITextViewDelegate {
         print(ciphertext)
         //Setting Morse text field to new ciphertext
         MorseTextField.text = ciphertext
+        self.morseCode = ciphertext
     }
 
 }
