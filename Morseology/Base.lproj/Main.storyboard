@@ -43,6 +43,10 @@
                                     <segue destination="YUf-6G-tEG" kind="unwind" unwindAction="unwindViewController:" id="oXN-b3-Bfb"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uXa-ky-46t">
+                                <rect key="frame" x="40" y="220" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -56,6 +60,9 @@
                             <constraint firstItem="vac-g9-NWl" firstAttribute="trailing" secondItem="pgc-x0-hgy" secondAttribute="trailing" id="won-UA-NHR"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="AudioGif" destination="uXa-ky-46t" id="co1-e0-2Fu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oYb-WQ-Lvc" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="YUf-6G-tEG" userLabel="Exit" sceneMemberID="exit"/>

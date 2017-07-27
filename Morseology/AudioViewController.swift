@@ -13,11 +13,13 @@ import SwiftySound
 
 class AudioViewController: UIViewController, AVAudioPlayerDelegate {
     
+    @IBOutlet weak var AudioGif: UIImageView!
+    
     var morseCode = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        AudioGif.loadGif(name: "animated-sound-waves")
     }
 
 
