@@ -34,7 +34,7 @@ class AudioViewController: UIViewController{
         }
     }
     
-    //Trying something out
+    /*Trying something out
     private func toggleSound() {
         guard let device = AVAudioPlayer(withMediaType: AVMediaTypeAudio) else {return}
         do {
@@ -42,6 +42,7 @@ class AudioViewController: UIViewController{
             
         }
     }
+ */
     
     /*
     var player : AVAudioPlayer?
@@ -102,31 +103,27 @@ class AudioViewController: UIViewController{
    
   
     // Beeping out the Morse
+    //OH time the pauses not the sounds
    
     @IBAction func BLEEP(_ sender: Any) {
         
         if let morseTextField = homeScreenViewController.MorseTextField.text?.uppercased() {
             for character in morseTextField.characters {
                 if character == "." {
-//                    playShortBeep()
-//                    playPause()
-                    Sound.play(file: "longerBeep.mp3")
-                    print ("long")
-                    Sound.play(file: "space.mp3")
-                    print ("space")
+
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 5, execute: {
+                        Sound.play(file: "shortBeep.mp3")
+                        print ("short")
+                    })
                 } else if character == "-" {
-//                    playLongBeep()
-//                    playPause()
-                    Sound.play(file: "shortBeep.mp3")
-                    print ("short")
-                    Sound.play(file: "space.mp3")
-                    print ("space")
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 15, execute: {
+                        Sound.play(file: "longerBeep.mp3")
+                        print ("long")
+                    })
                 } else {
-                    for _ in 0..<3 {
-//                        playPause()
-                        Sound.play(file: "space.mp3")
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 5, execute: {
                         print ("pause")
-                    }
+                    })
                 }
             }
         }
