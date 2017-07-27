@@ -11,6 +11,8 @@ import UIKit
 import AVFoundation
 
 class TorchViewController: UIViewController {
+    
+    
     var homeScreenViewController: ViewController!
     
     @IBAction func lightButton(_ sender: Any) {
@@ -18,7 +20,6 @@ class TorchViewController: UIViewController {
             flash(forMorseCode: morseParagraph)
         }
     }
-    
     //Xander's stuff
     func flash(forMorseCode code: String) {
         // Start recursive function at index 0
@@ -82,6 +83,7 @@ class TorchViewController: UIViewController {
             }
         }
     }
+ 
     
     /* Our stuff
     //Access other class
