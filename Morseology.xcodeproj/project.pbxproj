@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2273B9DC1F2A246B00C201D9 /* Fake Soundwave.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2273B9DB1F2A246B00C201D9 /* Fake Soundwave.gif */; };
 		22FF3BCA1F2599D200B5B292 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BC91F2599D200B5B292 /* AppDelegate.swift */; };
 		22FF3BCC1F2599D200B5B292 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF3BCB1F2599D200B5B292 /* ViewController.swift */; };
 		22FF3BCF1F2599D200B5B292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FF3BCD1F2599D200B5B292 /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 		1AD0E1606F9E2C6AF7DB1E92 /* Pods-MorseologyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorseologyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MorseologyUITests/Pods-MorseologyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1C3AC880FAF209BAB42B2EB7 /* Pods-Morseology.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Morseology.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Morseology/Pods-Morseology.debug.xcconfig"; sourceTree = "<group>"; };
 		1E9644D7CD4A95B6709FF826 /* Pods_MorseologyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MorseologyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2273B9DB1F2A246B00C201D9 /* Fake Soundwave.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Fake Soundwave.gif"; sourceTree = SOURCE_ROOT; };
 		22FF3BC61F2599D200B5B292 /* Morseology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Morseology.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FF3BC91F2599D200B5B292 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22FF3BCB1F2599D200B5B292 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				22FF3BFE1F25D19F00B5B292 /* AudioViewController.swift */,
 				22FF3BCD1F2599D200B5B292 /* Main.storyboard */,
 				DD9D1C7F1F29DFE500EA914C /* animatedSoundWaves.gif */,
+				2273B9DB1F2A246B00C201D9 /* Fake Soundwave.gif */,
 				DD9D1C7B1F29DAA000EA914C /* Audio+Gif.swift */,
 				22FF3C031F26EB6100B5B292 /* EnglishToMorse.swift */,
 				22FF3BD31F2599D200B5B292 /* Assets.xcassets */,
@@ -320,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22FF3BD71F2599D200B5B292 /* LaunchScreen.storyboard in Resources */,
+				2273B9DC1F2A246B00C201D9 /* Fake Soundwave.gif in Resources */,
 				DD9D1C801F29DFE500EA914C /* animatedSoundWaves.gif in Resources */,
 				DD9D1C781F284C3A00EA914C /* space.mp3 in Resources */,
 				22FF3BD41F2599D200B5B292 /* Assets.xcassets in Resources */,
