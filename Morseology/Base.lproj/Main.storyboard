@@ -277,22 +277,22 @@ Z
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bwO-5g-gzG">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bwO-5g-gzG">
                                 <rect key="frame" x="125" y="533" width="70" height="30"/>
                                 <state key="normal" title="Dictionary"/>
                                 <connections>
                                     <segue destination="H56-ig-SBY" kind="show" identifier="displayDictionary" id="jWm-xB-dXy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YSO-c3-WRH">
-                                <rect key="frame" x="5" y="533" width="53" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YSO-c3-WRH">
+                                <rect key="frame" x="5" y="533" width="40" height="30"/>
                                 <state key="normal" title="Audio"/>
                                 <connections>
                                     <segue destination="SyI-oU-BQU" kind="show" identifier="displayAudio" id="hk5-pU-mfe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pN5-po-mQS">
-                                <rect key="frame" x="287" y="533" width="35" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pN5-po-mQS">
+                                <rect key="frame" x="280" y="533" width="35" height="30"/>
                                 <state key="normal" title="Light"/>
                                 <connections>
                                     <segue destination="3Xz-fh-VSd" kind="show" identifier="displayTorch" id="WRD-OX-ueF"/>
@@ -331,7 +331,6 @@ Z
                             <constraint firstItem="zG0-rZ-9ck" firstAttribute="top" secondItem="pN5-po-mQS" secondAttribute="bottom" constant="5" id="0d9-u0-ufg"/>
                             <constraint firstItem="nso-Wj-omM" firstAttribute="trailing" secondItem="luO-6Z-dBE" secondAttribute="trailingMargin" id="7oc-z9-fnN"/>
                             <constraint firstAttribute="trailing" secondItem="pN5-po-mQS" secondAttribute="trailing" constant="5" id="9nu-L7-qel"/>
-                            <constraint firstItem="bwO-5g-gzG" firstAttribute="leading" secondItem="YSO-c3-WRH" secondAttribute="trailing" constant="93" id="9r0-Jx-SH1"/>
                             <constraint firstAttribute="trailing" secondItem="pN5-po-mQS" secondAttribute="trailing" constant="5" id="C6I-Ve-JvI"/>
                             <constraint firstItem="bwO-5g-gzG" firstAttribute="baseline" secondItem="pN5-po-mQS" secondAttribute="baseline" id="K0m-jD-J1o"/>
                             <constraint firstItem="YSO-c3-WRH" firstAttribute="baseline" secondItem="bwO-5g-gzG" secondAttribute="baseline" id="Lpx-Lz-0Wj"/>
@@ -344,7 +343,6 @@ Z
                             <constraint firstItem="zG0-rZ-9ck" firstAttribute="top" secondItem="pN5-po-mQS" secondAttribute="bottom" constant="5" id="hJe-BD-bAe"/>
                             <constraint firstItem="zG0-rZ-9ck" firstAttribute="top" secondItem="YSO-c3-WRH" secondAttribute="bottom" constant="5" id="jqw-3B-ewH"/>
                             <constraint firstItem="nso-Wj-omM" firstAttribute="centerX" secondItem="fMY-io-CbR" secondAttribute="centerX" id="kfC-r4-g4a"/>
-                            <constraint firstItem="pN5-po-mQS" firstAttribute="leading" secondItem="bwO-5g-gzG" secondAttribute="trailing" constant="92" id="kv8-e9-Wm7"/>
                             <constraint firstItem="fMY-io-CbR" firstAttribute="top" secondItem="nso-Wj-omM" secondAttribute="bottom" constant="16" id="tTf-aB-lzN"/>
                             <constraint firstItem="pN5-po-mQS" firstAttribute="top" secondItem="vBa-Mg-OCv" secondAttribute="bottom" constant="8" id="tu6-Cz-6rJ"/>
                             <constraint firstItem="vBa-Mg-OCv" firstAttribute="top" secondItem="fMY-io-CbR" secondAttribute="bottom" constant="8" symbolic="YES" id="v6y-qS-mXp"/>
