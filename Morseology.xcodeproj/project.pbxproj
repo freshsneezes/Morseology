@@ -283,6 +283,7 @@
 				TargetAttributes = {
 					22FF3BC51F2599D200B5B292 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 22U6YQ6Q6W;
 						ProvisioningStyle = Automatic;
 					};
 					22FF3BDC1F2599D200B5B292 = {
@@ -654,10 +655,11 @@
 			baseConfigurationReference = 1C3AC880FAF209BAB42B2EB7 /* Pods-Morseology.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 22U6YQ6Q6W;
 				INFOPLIST_FILE = Morseology/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.Morseology;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.MorseologyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -669,10 +671,11 @@
 			baseConfigurationReference = 7793C8E54FBD0ADC0023C590 /* Pods-Morseology.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 22U6YQ6Q6W;
 				INFOPLIST_FILE = Morseology/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.Morseology;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.MorseologyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
