@@ -71,3 +71,4 @@ var englishToMorse: [Character : String] = [
     
     " " : "     "
 ]
+

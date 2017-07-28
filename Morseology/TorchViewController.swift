@@ -12,6 +12,11 @@ import AVFoundation
 
 class TorchViewController: UIViewController {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.hideKeyboardWhenTappedAround()
+    }
+    
     var morseCode = ""
     
     @IBAction func lightButton(_ sender: Any) {

@@ -20,6 +20,7 @@ class AudioViewController: UIViewController, AVAudioPlayerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         AudioGif.loadGif(name: "Fake Soundwave")
+        self.hideKeyboardWhenTappedAround()
     }
 
 
